@@ -1,0 +1,32 @@
+{
+  "name": "sescc",
+  "version": "0.1.0",
+  "description": "Simple ECMAScript Compiler Compiler",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js --exec babel-node --presets env",
+    "build": "babel src -d dist --presets env",
+    "main": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylejlin/sescc.git"
+  },
+  "author": "Kyle Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylejlin/sescc/issues"
+  },
+  "homepage": "https://github.com/kylejlin/sescc#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.3.0",
+    "nodemon": "^1.17.5",
+    "regenerator-runtime": "^0.12.0"
+  }
+}

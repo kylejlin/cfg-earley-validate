@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it lexes correctly 1`] = `
+Array [
+  Object {
+    "end": Array [
+      1,
+      1,
+    ],
+    "start": Array [
+      1,
+      0,
+    ],
+    "type": "LPAREN",
+    "value": "(",
+  },
+  Object {
+    "end": Array [
+      1,
+      4,
+    ],
+    "start": Array [
+      1,
+      1,
+    ],
+    "type": "IDENTIFIER",
+    "value": "foo",
+  },
+  Object {
+    "end": Array [
+      1,
+      7,
+    ],
+    "start": Array [
+      1,
+      5,
+    ],
+    "type": "NUMBER",
+    "value": 42,
+  },
+  Object {
+    "end": Array [
+      1,
+      9,
+    ],
+    "start": Array [
+      1,
+      8,
+    ],
+    "type": "LPAREN",
+    "value": "(",
+  },
+  Object {
+    "end": Array [
+      1,
+      12,
+    ],
+    "start": Array [
+      1,
+      9,
+    ],
+    "type": "IDENTIFIER",
+    "value": "baz",
+  },
+  Object {
+    "end": Array [
+      1,
+      18,
+    ],
+    "start": Array [
+      1,
+      13,
+    ],
+    "type": "STRING",
+    "value": "bar",
+  },
+  Object {
+    "end": Array [
+      1,
+      19,
+    ],
+    "start": Array [
+      1,
+      18,
+    ],
+    "type": "RPAREN",
+    "value": ")",
+  },
+  Object {
+    "end": Array [
+      1,
+      20,
+    ],
+    "start": Array [
+      1,
+      19,
+    ],
+    "type": "RPAREN",
+    "value": ")",
+  },
+]
+`;
