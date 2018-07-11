@@ -2,7 +2,7 @@
   "name": "sescc",
   "private": true,
   "version": "0.1.0",
-  "description": "Simple ECMAScript Compiler Compiler",
+  "description": "Validates code using the context-free grammar you provide it.",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
