@@ -1,5 +1,6 @@
 {
   "name": "sescc",
+  "private": true,
   "version": "0.1.0",
   "description": "Simple ECMAScript Compiler Compiler",
   "main": "dist/index.js",
