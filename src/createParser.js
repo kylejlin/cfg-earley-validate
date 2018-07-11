@@ -31,7 +31,6 @@ const createParser = (grammar) => {
       }
     }
     const acceptingState = [startRule[0], startRule.slice(1), [], 0];
-    console.log(chart.map(states => states.map(state => state[0] + ' -> ' + state[1].join(' ') + ' . ' + state[2].join(' ') + ' from ' + state[3])))
     return !!chart[tokens.length - 1].find((s) => deepEq(s, acceptingState));
   };
 };

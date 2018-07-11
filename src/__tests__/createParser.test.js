@@ -1,7 +1,7 @@
 import createParser from '../createParser';
 
 test('it parses correctly', () => {
-  const productionRules = [
+  const grammar = [
     'start : exp',
     'exp : NUMBER',
     'exp : STRING',
@@ -11,7 +11,7 @@ test('it parses correctly', () => {
     'optArgs :',
     'optArgs : exp optArgs'
   ];
-  const parse = createParser(productionRules, options);
+  const parse = createParser(grammar);
   const tokens = [
     { name: 'LPAREN', value: '(', start: [ 1, 0 ], end: [ 1, 1 ] },
     { name: 'IDENTIFIER', value: 'foo', start: [ 1, 1 ], end: [ 1, 4 ] },
