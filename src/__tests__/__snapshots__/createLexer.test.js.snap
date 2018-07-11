@@ -7,11 +7,11 @@ Array [
       1,
       1,
     ],
+    "name": "LPAREN",
     "start": Array [
       1,
       0,
     ],
-    "type": "LPAREN",
     "value": "(",
   },
   Object {
@@ -19,11 +19,11 @@ Array [
       1,
       4,
     ],
+    "name": "IDENTIFIER",
     "start": Array [
       1,
       1,
     ],
-    "type": "IDENTIFIER",
     "value": "foo",
   },
   Object {
@@ -31,11 +31,11 @@ Array [
       1,
       7,
     ],
+    "name": "NUMBER",
     "start": Array [
       1,
       5,
     ],
-    "type": "NUMBER",
     "value": 42,
   },
   Object {
@@ -43,11 +43,11 @@ Array [
       1,
       9,
     ],
+    "name": "LPAREN",
     "start": Array [
       1,
       8,
     ],
-    "type": "LPAREN",
     "value": "(",
   },
   Object {
@@ -55,11 +55,11 @@ Array [
       1,
       12,
     ],
+    "name": "IDENTIFIER",
     "start": Array [
       1,
       9,
     ],
-    "type": "IDENTIFIER",
     "value": "baz",
   },
   Object {
@@ -67,11 +67,11 @@ Array [
       1,
       18,
     ],
+    "name": "STRING",
     "start": Array [
       1,
       13,
     ],
-    "type": "STRING",
     "value": "bar",
   },
   Object {
@@ -79,11 +79,11 @@ Array [
       1,
       19,
     ],
+    "name": "RPAREN",
     "start": Array [
       1,
       18,
     ],
-    "type": "RPAREN",
     "value": ")",
   },
   Object {
@@ -91,11 +91,11 @@ Array [
       1,
       20,
     ],
+    "name": "RPAREN",
     "start": Array [
       1,
       19,
     ],
-    "type": "RPAREN",
     "value": ")",
   },
 ]
